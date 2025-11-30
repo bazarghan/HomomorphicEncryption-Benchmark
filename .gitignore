@@ -1,2 +1,46 @@
-.venv/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
 
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+
+# Project Specific
+# Ignore generated results
+results/raw_data/*
+results/plots/*
+
+# Ignore local test artifacts
+*.log
